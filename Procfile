@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: waitress-serve --listen=*:3030 app:app
