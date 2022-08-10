@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:3030 app:app
+web: waitress-serve --listen=*:3000 app:app
